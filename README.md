@@ -1,6 +1,6 @@
 # Goose Guide Bot
 
-A Voiceflow-powered AI chat agent to help hackers get answers to their questions quickly and accurately! Open sourced as of Hack the North 2024 on Wednesday, Auguest 21st, 2024.
+A Voiceflow-powered AI chat agent to help hackers get answers to their questions quickly and accurately! Open sourced as of Hack the North 2024 on Wednesday, August 21st, 2024.
 
 ## Features
 

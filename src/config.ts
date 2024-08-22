@@ -1,0 +1,21 @@
+import dotenv from "dotenv";
+
+dotenv.config();
+
+// TODO: check if all env vars are present
+export const {
+  QUESTIONS_CHANNEL,
+  ANNOUNCEMENTS_CHANNEL,
+  INSERT_KB_CHANNEL,
+  MONITORING_CHANNEL,
+  VOICEFLOW_API_KEY,
+  VOICEFLOW_PROJECT_ID,
+  VOICEFLOW_VERSION_ID,
+  AIRTABLE_API_KEY,
+  MAINTAINER_PING,
+  FAILED_ANSWER_PING,
+  EMERGENCY_PING,
+  AIRTABLE_BASE_ID,
+  CONVERSATION_TABLE_ID,
+  ANNOUNCEMENT_TABLE_ID,
+} = process.env as Record<string, string>;

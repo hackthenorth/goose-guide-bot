@@ -1,0 +1,29 @@
+{
+  "name": "htn-qna-chatbot",
+  "version": "1.0.0",
+  "description": "An AI powered QNA Chatbot to answer questions at Hack the North, built in partnership with Voiceflow",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackathon/qna-chatbot.git"
+  },
+  "author": "Hack the North, Voiceflow",
+  "bugs": {
+    "url": "https://github.com/hackathon/qna-chatbot/issues"
+  },
+  "homepage": "https://github.com/hackathon/qna-chatbot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}

@@ -11,8 +11,9 @@
     },
     "slash_commands": [
       {
-        "command": "/ask",
-        "description": "Ask Q&A in DMs",
+        "name": "/ask",
+        "description": "Ask Goose Guide Bot anything about the hackathon",
+        "usage_hint": "[your-question]",
         "should_escape": false
       },
       {
